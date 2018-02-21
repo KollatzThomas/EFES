@@ -15,3 +15,11 @@ footer {
     font-size: 80%;
     padding: 1em;
 }
+
+/* Hebrew added to EFES by thomaskollatz 2018-02-21 */
+div[lang="he-Hebr"] {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: right;
+    
+}
